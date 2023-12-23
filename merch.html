@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revival Records</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <nav>
+            <a href="index.html">HOME</a> 
+            <a href="about.html">ABOUT</a>
+            <a href="records.html">RECORDS</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="merch.html">MERCH</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Merch</h2>
+        <div class="merch">
+        <img src="images/t-shirt.jpg" alt="t-shirt">
+        <p>T-Shirt - 18.99</p>
+        <label>Quantity</label>
+        <div class="quantity">
+        <input type="number" value="1" min="1" max="10">
+        <a class="delete" onclick="removeRow(event)">x</a>
+        </div>
+        <div class="actions">
+            <input type="submit">
+        </div>
+        </div>
+        <hr>
+        <br>
+        <div class="merch">
+            <img src="images/longsleeve.jpg" alt="longsleeve">
+            <p>Long Sleeve - 18.99</p>
+            <label>Quantity</label>
+        <div class="quantity">
+        <input type="number" value="1" min="1" max="10">
+        <a class="delete" onclick="removeRow(event)">x</a>
+        </div>
+        <div class="actions">
+            <input type="submit">
+        </div>
+        </div>
+        <hr>
+        <br>
+        <div class="merch">
+            <img src="images/recordlogo.jpg" alt="record logo">
+            <p>10 x 10 Print - 11.99</p>
+            <label>Quantity</label>
+        <div class="quantity">
+        <input type="number" value="1" min="1" max="10">
+        <a class="delete" onclick="removeRow(event)">x</a>
+        </div>
+        <div class="actions">
+            <input type="submit">
+        </div>
+        </div>
+        <br>
+        <hr>
+        <div class="merch">
+            <img src="images/sweater.jpg" alt="sweater">
+            <p>Sweater - 20.99</p>
+            <label>Quantity</label>
+        <div class="quantity">
+        <input type="number" value="1" min="1" max="10">
+        <a class="delete" onclick="removeRow(event)">x</a>
+        </div>
+        <div class="actions">
+            <input type="submit">
+        </div>
+        </div>
+        <br>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
